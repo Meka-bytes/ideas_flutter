@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart%20';
+import 'package:google_fonts/google_fonts.dart';
 
 class StartScreen extends StatelessWidget {
   const StartScreen(this.startQuiz, {super.key});
@@ -19,7 +20,7 @@ class StartScreen extends StatelessWidget {
             // you can add colors to the image asset
             //and set transperency using the color
             //constructor
-            color: Color.fromARGB(255, 235, 241, 196),
+            color: const Color.fromARGB(255, 235, 241, 196),
           ),
 
           //setting transperency using opacity
@@ -32,10 +33,10 @@ class StartScreen extends StatelessWidget {
           //   ),
           // ),
           const SizedBox(height: 80.0),
-          const Text(
+          Text(
             'Learn Flutter the fun way',
-            style: TextStyle(
-              color: Color.fromARGB(255, 251, 255, 213),
+            style: GoogleFonts.lato(
+              color: const Color.fromARGB(255, 251, 255, 213),
               fontSize: 24,
             ),
           ),

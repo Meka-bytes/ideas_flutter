@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:ideas_flutter/dice_roller.dart';
-import 'package:ideas_flutter/styled_text.dart';
 
 //setting an alignment into a variable
 // var startAlignment = Alignment.topLeft;
